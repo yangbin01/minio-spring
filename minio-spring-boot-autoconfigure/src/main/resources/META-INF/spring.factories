@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.tre.minio.MinioAutoConfiguration,com.tre.minio.endpoint.MinioEndpointAutoConfiguration
+org.springframework.boot.diagnostics.FailureAnalyzer=\
+com.tre.minio.analyzer.MinioConnectionFailureAnalyzer

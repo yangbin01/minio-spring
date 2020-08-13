@@ -1,0 +1,55 @@
+{
+  "properties": [
+    {
+      "name": "minio.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "description": "minio autoconfigure enabled."
+    },
+    {
+      "name": "minio.endpoint",
+      "type": "java.lang.String",
+      "description": "minio server address."
+    },
+    {
+      "name": "minio.port",
+      "type": "java.lang.Integer",
+      "defaultValue": 9000,
+      "description": "minio server port."
+    },
+    {
+      "name": "minio.secure",
+      "type": "java.lang.Boolean",
+      "defaultValue": false,
+      "description": "minio server secure."
+    },
+    {
+      "name": "minio.accessKey",
+      "type": "java.lang.String",
+      "description": "minio server accessKey."
+    },
+    {
+      "name": "minio.secretKey",
+      "type": "java.lang.String",
+      "description": "minio server secretKey."
+    },
+    {
+      "name": "minio.connect-timeout",
+      "type": "java.time.Duration",
+      "defaultValue": "10000ms",
+      "description": "minio httpclient connectTimeout."
+    },
+    {
+      "name": "minio.write-timeout",
+      "type": "java.time.Duration",
+      "defaultValue": "10000ms",
+      "description": "minio httpclient writeTimeout."
+    },
+    {
+      "name": "minio.read-timeout",
+      "type": "java.time.Duration",
+      "defaultValue": "10000ms",
+      "description": "minio httpclient readTimeout."
+    }
+  ]
+}
